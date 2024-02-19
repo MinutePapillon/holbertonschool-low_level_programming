@@ -1,6 +1,10 @@
 #include<stdio.h>
+/*
+ * blabla
+ * blabla
+ */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle"i/n);
+puts("\"Programming is like building a multilingual puzzle"\n);
 return 0;
 }
