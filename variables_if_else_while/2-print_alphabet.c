@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -12,6 +13,6 @@ int main(void)
 	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
 		putchar('\n');
+
 	return (0);
 }
-
