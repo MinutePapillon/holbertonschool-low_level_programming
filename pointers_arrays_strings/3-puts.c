@@ -1,20 +1,32 @@
 #include "main.h"
 
 /**
- * _puts - Write a function that prints a string, followed by a new line, to
- * stdout.
+ * _strcmp - a function that compares two strings
  *
- * @str: This is my input string
+ * @s1: string 1 input to compare
+ * @s2: against this other string 2
  *
- */
+ * Return: 0 if s1 and s2 are equal
+ *                character in @s2
+*/
 
-void _puts(char *str)
+int _strcmp(char *s1, char *s2)
 {
-	int index;
+	int i = 0, r;
 
-	for (index = 0; str[index] != '\0'; index++)
+	while (s1[i] != '\0' && s2[i] != '\0')
 	{
-		_putchar(str[index]);
+		if (s1[i] != s2[i])
+		{
+			r = s1[i] - s2[i];
+			break;
+		}
+		else
+		{
+			r = s1[i] - s2[i];
+		}
+		i++;
 	}
-	_putchar('\n');
+
+	return (r);
 }
