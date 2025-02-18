@@ -23,8 +23,8 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	u = i + 2;
 	i++;
+	u = i + 1;
 	}
 	putchar('\n');
 	return (0);
