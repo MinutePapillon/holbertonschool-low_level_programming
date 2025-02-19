@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Function - check the code.
+ * print_alphabet_x10 - Function
  *
  *
  * Return: Always 0.
