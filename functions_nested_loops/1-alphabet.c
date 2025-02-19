@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - function
+ *Return: 0 on sucess
  */
 void print_alphabet(void)
-
-/*prints the alphabet, in lowercase, followed by a new line*/
 {
 	char i = 97;
 
