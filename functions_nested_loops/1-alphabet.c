@@ -6,6 +6,8 @@
  * Return: Always 0.
  */
 void print_alphabet(void)
+
+/*prints the alphabet, in lowercase, followed by a new line*/
 {
 	char i = 97;
 
