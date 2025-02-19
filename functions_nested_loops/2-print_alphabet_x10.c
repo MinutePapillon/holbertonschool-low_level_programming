@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * Function - check the code.
+ *  
+ *
+ * Return: Always 0.
+ */
+void print_alphabet_x10(void)
+{
+	int i;
+	for (i = 0; i <= 11; i++)
+	{
+		char t;
+		for (t = 97; t <= 122; t++)
+		{
+			_putchar(t);
+		}
+	_putchar('\n');
+	}
+}

@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - function
- *Return: 0 on sucess
+ * Return: 0 on sucess
  */
 void print_alphabet(void)
 {
