@@ -1,22 +1,27 @@
 #include "main.h"
 
 /**
- * _isalpha - Function
+ * _abs - Function that computes the absolute value of an integer
  *
- * @c: nombre a tester
- * Return: Always 0.
+ * @n: nombre a tester
+ * Return: return the resultat
  */
 int _abs(int n)
 {
+
 	int resultat;
 
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	if (n > 0)
 	{
-		resultat = 1;
+		resultat = n;
+	}
+	else if (n == 0)
+	{
+		resultat = 0;
 	}
 	else
 	{
-		resultat = 0;
+		resultat = -(n);
 	}
 	return (resultat);
 }
