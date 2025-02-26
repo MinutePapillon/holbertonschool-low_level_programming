@@ -8,13 +8,13 @@
  */
 int _strlen(char *s)
 {
-        int i = 0;
+	int i = 0;
 
-        while (s[i] != '\0')
-        {
-                i++;
-        }
-        return (i);
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
 /**
  * rev_string - function that reverses a string
@@ -29,10 +29,10 @@ void rev_string(char *s)
 
 	while (l < r) 
 	{
-	t = s[l];
-	s[l] = s[r];
-	s[r] = t;
-	l++;
-	r--;
+		t = s[l];
+		s[l] = s[r];
+		s[r] = t;
+		l++;
+		r--;
 	}
 }
