@@ -5,6 +5,7 @@
  * @dest: pointeur
  * @src: pointeur
  *
+ * Return: retourne la valeur d'origine
  */
 char *_strcpy(char *dest, char *src)
 {
