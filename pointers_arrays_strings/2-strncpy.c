@@ -5,7 +5,7 @@
  * @src: pointeur
  * @n: valeur
  *
- * Return: 
+ * Return: retourne dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -13,7 +13,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (i < n && src[i] != '\0')
 	{
-		dest[i] = src [i];
+		dest[i] = src[i];
 		i++;
 	}
 	while (i < n)
