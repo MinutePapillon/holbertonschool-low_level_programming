@@ -4,7 +4,7 @@
  * print_diagsums - function that prints the sum
  * @a: pointeur
  * @size: variable
- * 
+ *
  * Return: void
  */
 void print_diagsums(int *a, int size)
@@ -20,7 +20,7 @@ void print_diagsums(int *a, int size)
 		p2 += (size - 1);
 		i++;
 	}
-	printf("%d ,", sum1);
+	printf("%d, ", sum1);
 	printf("%d\n", sum2);
 }
 
