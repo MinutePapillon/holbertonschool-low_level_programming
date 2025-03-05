@@ -1,5 +1,5 @@
 /**
- * _pow_recursion - function that returns the value of x 
+ * _pow_recursion - function that returns
  * @x: value
  * @y: power
  *
