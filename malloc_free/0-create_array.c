@@ -8,16 +8,19 @@
  *
  * Return: always 0
  */
- char *create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *array;
+	unsigned int i;
 
-	array = (char*)malloc(size * sizeof(char));
+	array = (char *)malloc(size * sizeof(char));
 	*array = c;
 
 	if (array == NULL || size == 0)
 		return (NULL);
-	else
-		return (array);
-	free(array);
+
+	for (i = 0; i < size; i++)
+		array[i] = c;
+
+	return (array);
 }
