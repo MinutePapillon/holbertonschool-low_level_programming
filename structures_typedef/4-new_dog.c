@@ -3,7 +3,7 @@
 #include "dog.h"
 /**
  *new_dog- ..
- *@name: .. 
+ *@name: ..
  *@age: ..
  *@owner: ..
  *Return: ..
