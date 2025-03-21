@@ -73,7 +73,7 @@ void print_all(const char * const format, ...)
 			}
 			i2++;
 		}
-		it1++;
+		i1++;
 	}
 	printf("\n");
 	va_end(args);
