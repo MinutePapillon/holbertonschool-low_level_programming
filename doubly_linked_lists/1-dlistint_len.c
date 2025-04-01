@@ -4,7 +4,8 @@
 #include "lists.h"
 
 /**
- * dlistint_len - unction that returns the number of elements in a linked dlistint_t list
+ * dlistint_len - unction that returns the number of elements
+ * in a linked dlistint_t list
  * @h: pointeur
  *
  * Return: the number of nodes
