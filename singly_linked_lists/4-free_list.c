@@ -6,7 +6,7 @@
 /**
  * free_list - function that frees a list_t list
  * @head:  pointeur of pointeur
- * 
+ *
  * Return: nothing
  */
 
