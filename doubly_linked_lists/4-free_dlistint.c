@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * free_ dlistint - function that adds a new node at the end
+ * free_dlistint - function that adds a new node at the end
  * @head:  pointeur of pointeur
  *
  * Return: nothing
